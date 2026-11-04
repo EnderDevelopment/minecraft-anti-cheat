@@ -1,0 +1,31 @@
+# Advanced Player Visibility Configuration
+
+# Visibility update interval in ticks (20 ticks = 1 second)
+visibility-update-interval: 20
+
+# Maximum distance for visibility checks
+visibility-distance: 100
+
+# Transparent blocks that should be considered for visibility
+transparent-blocks:
+  - GLASS
+  - GLASS_PANE
+  - LEAVES
+  - SLAB
+  - STAIRS
+  - WATER
+  - LAVA
+
+# Debug mode for logging visibility checks
+debug-mode: false
+
+# Staff bypass permission
+staff-bypass-permission: "advancedvisibility.bypass"
+
+# Per-world settings
+per-world-settings:
+  enabled: false
+  worlds:
+    - world
+    - world_nether
+    - world_the_end

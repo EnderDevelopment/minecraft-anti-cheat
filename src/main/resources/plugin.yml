@@ -1,0 +1,8 @@
+name: Plugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  ciao:
+    description: Greets the player.
+    usage: /ciao
